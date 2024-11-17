@@ -1,6 +1,6 @@
 # Customer Churn Prediction App
 
-This Streamlit application implements the findings from the conference paper "A Comparison of Machine Learning Algorithms for Customer Churn Prediction" by [Your Name] and colleagues.
+This Streamlit application implements the findings from the conference paper ["A Comparison of Machine Learning Algorithms for Customer Churn Prediction"](https://ieeexplore.ieee.org/document/10455051) written by myself and my colleagues.
 
 ## Features
 
