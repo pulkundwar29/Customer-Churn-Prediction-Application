@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using our services</title>
+  </head>
+  <body>
+    <div class="section right-section">
+      <h2><a href="website.html">HOME</a></h2>
+      <h2>Using Our Services</h2>
+      <p>To use our services, follow these steps:</p>
+      <ol>
+        <li>
+          Choose the Dataset.
+          <ol>
+            <a href="http://localhost:8503" target="_blank">Telecom Dataset</a>
+          </ol>
+          <ol>
+            <a href=" http://localhost:8501" target="_blank">Bank dataset</a>
+          </ol>
+          <ol>
+            <a href="http://localhost:8502" target="_blank"
+              >Ecommerce dataset 3</a
+            >
+          </ol>
+        </li>
+        <li>Enter Input for every feature.</li>
+        <li>Wait for the result.</li>
+      </ol>
+    </div>
+  </body>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #222;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      grid-column: span 2;
+    }
+
+    h1 {
+      font-size: 36px;
+    }
+
+    .section {
+      width: 80%;
+      max-width: 400px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #333;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-top: 0;
+      color: #4caf50; /* Custom heading color */
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    ol {
+      margin-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #4caf50;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    a:hover {
+      color: #6eff7d;
+    }
+
+    .left-section {
+      grid-column: 1;
+    }
+
+    .right-section {
+      grid-column: 1.1;
+    }
+
+    /* Increase the font size for the "Using Our Services" heading */
+    .right-section h2 {
+      font-size: 28px; /* You can adjust the font size to your preference */
+      margin-top: 0;
+      color: #4caf50;
+    }
+  </style>
+</html>

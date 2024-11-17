@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website User Guide</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #222;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        grid-column: span 2;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      .section {
+        width: 80%;
+        max-width: 400px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #333;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+      }
+
+      h2 {
+        font-size: 24px;
+        margin-top: 0;
+        color: #4caf50; /* Custom heading color */
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      ol {
+        margin-left: 20px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      a {
+        color: #4caf50;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+
+      a:hover {
+        color: #6eff7d;
+      }
+
+      .left-section {
+        grid-column: 1;
+      }
+
+      .right-section {
+        grid-column: 1.1;
+      }
+
+      /* Increase the font size for the "Using Our Services" heading */
+      .right-section h2 {
+        font-size: 28px; /* You can adjust the font size to your preference */
+        margin-top: 0;
+        color: #4caf50;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Our Website User Guide</h1>
+    </header>
+    <div class="section right-section">
+      <h2>Getting Started</h2>
+      <p>
+        Welcome to our website! This user guide will help you navigate and use
+        our services effectively.
+      </p>
+      <p>
+        <a href="using our services.html">Predict Churn</a>
+      </p>
+    </div>
+    <div class="section left-section">
+      <h2>Navigation</h2>
+      <p>
+        Our website has a user-friendly navigation menu that includes the
+        following sections:
+      </p>
+      <ol>
+        <li><a href="">Home</a></li>
+        <li><a href="">About us</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Contact us</a></li>
+      </ol>
+    </div>
+
+    <div class="section left-section">
+      <h2>Contact Us</h2>
+      <p>
+        If you have any questions or need assistance, please don't hesitate to
+        <a href="contact.html">contact us</a>.
+      </p>
+    </div>
+  </body>
+</html>
